@@ -15,7 +15,7 @@ class jalan:
         pass
 
 
-logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mKHAN\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33mCREATED BY\x1b[0;m   :  \x1b[1;33mMINHAJ\x1b[0;m\x1b[1;32m && \x1b[1;33mKHAN\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m MINHAJ KhAn\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-KRS\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mKRS\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mMINHAJ\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO KRS TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mNIDA\x1b[0;m ======================\n'
+logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mKHAN\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33mCREATED BY\x1b[0;m   :  \x1b[1;33mMINHAJ\x1b[0;m\x1b[1;32m && \x1b[1;33mKHAN\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m MINHAJ KhAn\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-KHAN\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mKHAN\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mMINHAJ\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO KHAN TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mNIDA\x1b[0;m ======================\n'
 
 def ud():
     os.system('clear')
@@ -179,13 +179,13 @@ logo =                                          ("""
 \033[1;37m================= \33[32;45mKHAN\33[0;m =====================
 \033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mMINHAJ\33[0;m\033[1;32m && \033[1;33mKHAN\33[0;m
 \033[1;32m     \033[1;32mFACEBOK      : \033[1;34m MINHAJ KhAn
-\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mTEAM-KRS
+\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mTEAM-KHAN
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS FREE
-\033[1;32m     \033[1;35mTEAM         :  \033[1;35mKRS
+\033[1;32m     \033[1;35mTEAM         :  \033[1;35mKHAN
 \033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.3
 \033[1;37m================= \33[32;45mMINHAJ\33[0;m =====================
  
-       \33[37;41m\t WELLCOME TO KRS TOOL\33[0;m
+       \33[37;41m\t WELLCOME TO KHAN TOOL\33[0;m
  
 \033[1;37m================== \33[32;45mKHAN\33[0;m ======================\n""")
 loop = 0
@@ -345,8 +345,8 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(MINHAJ-CP🤕)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/MINHAJ-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('    \33[1;30m(MINHAJ-Ok🤕)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/MINHAJ-Ok.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
